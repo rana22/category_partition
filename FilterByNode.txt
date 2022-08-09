@@ -26,13 +26,13 @@
 
 #Subject Count
   Category Subject Count By Filter Dictionary:
-    Yes.                            [if selected_assignment || selected_class]
-    No.
+    Yes.                            [if selected_assignment || selected_class] 
+    No.                              [if !selected_assignment && !selected_class] 
 
   Assignment Subject Count By Filter Dictionary:
     Yes.                            [if selected_category || selected_class]
-    No.
+    No.                             [if !selected_category && !selected_class] 
 
   Class Subject Count By Filter Dictionary:
     Yes.                            [if selected_category || selected_assignment]
-    No.
+    No.                             [if !selected_category && !selected_assignment]
