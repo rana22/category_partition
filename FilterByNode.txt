@@ -15,8 +15,8 @@
 
 #Action
   Action Type:  
-    Check Facet.       [if active_category_filter || active_assingment_filter || active_class_filter] [property isChecked] 
-    Uncheck Facet.     [property isUnChecked]
+    CHECK.       [if active_category_filter || active_assingment_filter || active_class_filter] [property isChecked] 
+    UNCHECK.     [property isUnChecked]
 
 #Current Seclected Property
   Current Facet Selected:
