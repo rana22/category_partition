@@ -1,0 +1,86 @@
+# Filename
+  File exist:
+      File Not Found.           [error]
+      Yes.
+# File    
+  Size:
+      Empty.                    [single][property Emptyfile]
+      Not Empty.
+
+  Edit File:
+      Yes.                      [property editFile]
+      No.                       
+
+# Options
+  Option specified:
+    InValid Operations.         [error]
+    zero.                       [single] [property zero_options]
+    zero or more.
+
+  -f option present:
+    Yes.                        [if editFile] [property f_option]    
+    No.                         [if !editFile]
+    output file with no newline as last line.    [if f_option][error]
+
+  -o option present:
+    with f option.              [if f_option][error]
+    Yes.                        [if !editFile && !f_option] [property o_option]    
+    No.                         
+
+  -r option present:
+    Yes.                        [property r_option]    
+    No.                         
+
+  -i option present:
+    without r option.           [if !r_option][error]
+    Yes.                        [if r_option] [property i_option]    
+    No. 
+
+  -p option present:
+    Yes.                        [property p_option]   
+    No.                         
+
+  -d option present:
+    Yes.                        [property d_option]   
+    No.                         
+  
+  -c option present:
+    with r option.              [if r_option][error]
+    Yes.                        [if !r_option] [property c_option]   
+    No.
+
+  -f/-o/-i processed first:
+    Yes.                        [if f_option || o_option || i_option]
+    No.                         [if !f_option && !o_option && !i_option]
+
+  last occurrences:
+    Yes.                        
+
+# Arguments
+  prefix argument for -p option:
+    No Argument.                [if p_option][error]
+    Length greater than zero.   [if p_option]
+    None.                       [if !p_option]
+
+  N arugument for -d option:
+    invalid value.              [if d_option][error]
+    range between 1 to 10.      [if d_option]
+    None.                       [if !d_option]
+
+  N arugument for -c option:
+    invalid value.              [if c_option][error]
+    range between -25 to 25.    [if c_option]
+    None.                       [if !c_option]
+  
+  <old> <new> arugument for -r option:
+    No/Empty <old> Argument.    [if r_option][error]
+    valid <old> <new> argument. [if r_option]
+    None.                       [if !r_option]
+
+  No of matching argument in file for -r operation:
+    AtLeastOne.               [if !Emptyfile && r_option] [property oneOccurence]
+    None.                     [if !r_option]
+  
+  No of matching argument in one line for -r operation:
+    AtLeastOne.               [if !Emptyfile && r_option]
+    None.                     [if !r_option]

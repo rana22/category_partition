@@ -1,0 +1,1104 @@
+
+Test Case 1  		<error>
+   File exist :  File Not Found
+
+
+Test Case 2  		<single>
+   Size :  Empty
+
+
+Test Case 3  		<error>
+   Option specified :  InValid Operations
+
+
+Test Case 4  		<single>
+   Option specified :  zero
+
+
+Test Case 5  		<error>  (follows [if])
+   -f option present :  output file with no newline as last line
+
+
+Test Case 6  		<error>  (follows [if])
+   -o option present :  with f option
+
+
+Test Case 7  		<error>  (follows [if])
+   -i option present :  without r option
+
+
+Test Case 8  		<error>  (follows [if])
+   -c option present :  with r option
+
+
+Test Case 9  		<error>  (follows [if])
+   prefix argument for -p option :  No Argument
+
+
+Test Case 10 		<error>  (follows [if])
+   N arugument for -d option :  invalid value
+
+
+Test Case 11 		<error>  (follows [if])
+   N arugument for -c option :  invalid value
+
+
+Test Case 12 		<error>  (follows [if])
+   <old> <new> arugument for -r option :  No/Empty <old> Argument
+
+
+Test Case 13 		(Key = 2.2.1.3.1.3.1.2.1.1.3.1.1.2.2.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  Yes
+   -p option present                                    :  Yes
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 14 		(Key = 2.2.1.3.1.3.1.2.1.2.3.1.1.2.3.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  Yes
+   -p option present                                    :  Yes
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 15 		(Key = 2.2.1.3.1.3.1.2.2.1.3.1.1.3.2.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  Yes
+   -p option present                                    :  No
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 16 		(Key = 2.2.1.3.1.3.1.2.2.2.3.1.1.3.3.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  Yes
+   -p option present                                    :  No
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 17 		(Key = 2.2.1.3.1.3.1.3.1.1.3.1.1.2.2.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 18 		(Key = 2.2.1.3.1.3.1.3.1.2.3.1.1.2.3.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 19 		(Key = 2.2.1.3.1.3.1.3.2.1.3.1.1.3.2.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 20 		(Key = 2.2.1.3.1.3.1.3.2.2.3.1.1.3.3.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 21 		(Key = 2.2.1.3.1.3.2.3.1.1.2.1.1.2.2.2.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  Yes
+   -c option present                                    :  Yes
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  range between -25 to 25
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 22 		(Key = 2.2.1.3.1.3.2.3.1.1.3.1.1.2.2.3.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 23 		(Key = 2.2.1.3.1.3.2.3.1.2.2.1.1.2.3.2.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  No
+   -c option present                                    :  Yes
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  range between -25 to 25
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 24 		(Key = 2.2.1.3.1.3.2.3.1.2.3.1.1.2.3.3.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 25 		(Key = 2.2.1.3.1.3.2.3.2.1.2.1.1.3.2.2.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  Yes
+   -c option present                                    :  Yes
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  range between -25 to 25
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 26 		(Key = 2.2.1.3.1.3.2.3.2.1.3.1.1.3.2.3.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 27 		(Key = 2.2.1.3.1.3.2.3.2.2.2.1.1.3.3.2.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  No
+   -c option present                                    :  Yes
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  range between -25 to 25
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 28 		(Key = 2.2.1.3.1.3.2.3.2.2.3.1.1.3.3.3.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  Yes
+   Option specified                                     :  zero or more
+   -f option present                                    :  Yes
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 29 		(Key = 2.2.2.3.2.2.1.2.1.1.3.1.1.2.2.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  Yes
+   -i option present                                    :  Yes
+   -p option present                                    :  Yes
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 30 		(Key = 2.2.2.3.2.2.1.2.1.2.3.1.1.2.3.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  Yes
+   -i option present                                    :  Yes
+   -p option present                                    :  Yes
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 31 		(Key = 2.2.2.3.2.2.1.2.2.1.3.1.1.3.2.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  Yes
+   -i option present                                    :  Yes
+   -p option present                                    :  No
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 32 		(Key = 2.2.2.3.2.2.1.2.2.2.3.1.1.3.3.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  Yes
+   -i option present                                    :  Yes
+   -p option present                                    :  No
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 33 		(Key = 2.2.2.3.2.2.1.3.1.1.3.1.1.2.2.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  Yes
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 34 		(Key = 2.2.2.3.2.2.1.3.1.2.3.1.1.2.3.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  Yes
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 35 		(Key = 2.2.2.3.2.2.1.3.2.1.3.1.1.3.2.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  Yes
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 36 		(Key = 2.2.2.3.2.2.1.3.2.2.3.1.1.3.3.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  Yes
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 37 		(Key = 2.2.2.3.2.2.2.3.1.1.2.1.1.2.2.2.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  Yes
+   -c option present                                    :  Yes
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  range between -25 to 25
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 38 		(Key = 2.2.2.3.2.2.2.3.1.1.3.1.1.2.2.3.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 39 		(Key = 2.2.2.3.2.2.2.3.1.2.2.1.1.2.3.2.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  No
+   -c option present                                    :  Yes
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  range between -25 to 25
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 40 		(Key = 2.2.2.3.2.2.2.3.1.2.3.1.1.2.3.3.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 41 		(Key = 2.2.2.3.2.2.2.3.2.1.2.1.1.3.2.2.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  Yes
+   -c option present                                    :  Yes
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  range between -25 to 25
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 42 		(Key = 2.2.2.3.2.2.2.3.2.1.3.1.1.3.2.3.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 43 		(Key = 2.2.2.3.2.2.2.3.2.2.2.1.1.3.3.2.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  No
+   -c option present                                    :  Yes
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  range between -25 to 25
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 44 		(Key = 2.2.2.3.2.2.2.3.2.2.3.1.1.3.3.3.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  Yes
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 45 		(Key = 2.2.2.3.2.3.1.2.1.1.3.1.1.2.2.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  Yes
+   -p option present                                    :  Yes
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 46 		(Key = 2.2.2.3.2.3.1.2.1.2.3.1.1.2.3.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  Yes
+   -p option present                                    :  Yes
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 47 		(Key = 2.2.2.3.2.3.1.2.2.1.3.1.1.3.2.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  Yes
+   -p option present                                    :  No
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 48 		(Key = 2.2.2.3.2.3.1.2.2.2.3.1.1.3.3.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  Yes
+   -p option present                                    :  No
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  Yes
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 49 		(Key = 2.2.2.3.2.3.1.3.1.1.3.2.1.2.2.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  No
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 50 		(Key = 2.2.2.3.2.3.1.3.1.2.3.2.1.2.3.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  No
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 51 		(Key = 2.2.2.3.2.3.1.3.2.1.3.2.1.3.2.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  No
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 52 		(Key = 2.2.2.3.2.3.1.3.2.2.3.2.1.3.3.3.2.1.1.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  Yes
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  No
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  valid <old> <new> argument
+   No of matching argument in file for -r operation     :  AtLeastOne
+   No of matching argument in one line for -r operation :  AtLeastOne
+
+
+Test Case 53 		(Key = 2.2.2.3.2.3.2.3.1.1.2.2.1.2.2.2.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  Yes
+   -c option present                                    :  Yes
+   -f/-o/-i processed first                             :  No
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  range between -25 to 25
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 54 		(Key = 2.2.2.3.2.3.2.3.1.1.3.2.1.2.2.3.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  No
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 55 		(Key = 2.2.2.3.2.3.2.3.1.2.2.2.1.2.3.2.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  No
+   -c option present                                    :  Yes
+   -f/-o/-i processed first                             :  No
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  range between -25 to 25
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 56 		(Key = 2.2.2.3.2.3.2.3.1.2.3.2.1.2.3.3.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  Yes
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  No
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  Length greater than zero
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 57 		(Key = 2.2.2.3.2.3.2.3.2.1.2.2.1.3.2.2.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  Yes
+   -c option present                                    :  Yes
+   -f/-o/-i processed first                             :  No
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  range between -25 to 25
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 58 		(Key = 2.2.2.3.2.3.2.3.2.1.3.2.1.3.2.3.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  Yes
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  No
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  range between 1 to 10
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 59 		(Key = 2.2.2.3.2.3.2.3.2.2.2.2.1.3.3.2.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  No
+   -c option present                                    :  Yes
+   -f/-o/-i processed first                             :  No
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  range between -25 to 25
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+
+
+Test Case 60 		(Key = 2.2.2.3.2.3.2.3.2.2.3.2.1.3.3.3.3.2.2.)
+   File exist                                           :  Yes
+   Size                                                 :  Not Empty
+   Edit File                                            :  No
+   Option specified                                     :  zero or more
+   -f option present                                    :  No
+   -o option present                                    :  No
+   -r option present                                    :  No
+   -i option present                                    :  No
+   -p option present                                    :  No
+   -d option present                                    :  No
+   -c option present                                    :  No
+   -f/-o/-i processed first                             :  No
+   last occurrences                                     :  Yes
+   prefix argument for -p option                        :  None
+   N arugument for -d option                            :  None
+   N arugument for -c option                            :  None
+   <old> <new> arugument for -r option                  :  None
+   No of matching argument in file for -r operation     :  None
+   No of matching argument in one line for -r operation :  None
+

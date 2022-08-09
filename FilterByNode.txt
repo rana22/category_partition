@@ -1,0 +1,38 @@
+
+
+#Faceted Property
+  Category:
+    At least one checked Item.      [property active_category_filter]
+    No.                             [property inactive_category_filter]
+
+  Assignment:
+    At least one checked Item.      [property active_assingment_filter]
+    No.                             [property inactive_assingment_filter]
+
+  Class:
+    At least one checked Item.      [property active_class_filter]
+    No.                             [property inactive_class_filter]
+
+#Action
+  Action Type:  
+    Check.       [if active_category_filter || active_assingment_filter || active_class_filter] [property isChecked] 
+    uncheck.     [property isUnChecked]
+
+#Current Seclected Property
+  Current Property:
+    Category.                       [property selected_category]
+    Assignment.                     [property selected_assignment]
+    Class.                          [property selected_class]
+
+#Subject Count
+  Category Subject Count By Filter Dictionary:
+    Yes.                            [if selected_assignment || selected_class]
+    No.
+
+  Assignment Subject Count By Filter Dictionary:
+    Yes.                            [if selected_category || selected_class]
+    No.
+
+  Class Subject Count By Filter Dictionary:
+    Yes.                            [if selected_category || selected_assignment]
+    No.
