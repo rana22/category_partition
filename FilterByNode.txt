@@ -1,25 +1,25 @@
 
 
 #Faceted Property
-  Category:
+  Category Facet:
     At least one checked Item.      [property active_category_filter]
     No.                             [property inactive_category_filter]
 
-  Assignment:
+  Assignment Facet:
     At least one checked Item.      [property active_assingment_filter]
     No.                             [property inactive_assingment_filter]
 
-  Class:
+  Class Facet:
     At least one checked Item.      [property active_class_filter]
     No.                             [property inactive_class_filter]
 
 #Action
   Action Type:  
-    Check.       [if active_category_filter || active_assingment_filter || active_class_filter] [property isChecked] 
-    uncheck.     [property isUnChecked]
+    Check Facet.       [if active_category_filter || active_assingment_filter || active_class_filter] [property isChecked] 
+    Uncheck Facet.     [property isUnChecked]
 
 #Current Seclected Property
-  Current Property:
+  Current Facet Selected:
     Category.                       [property selected_category]
     Assignment.                     [property selected_assignment]
     Class.                          [property selected_class]
